@@ -19,8 +19,8 @@ def valid_move?(board, index)
    end
  end
 
- def move(board, index, "X")
-   board[index] = "X"
+ def move(board, index, char = "X")
+   board[index] = char.strip
  end
 
 def turn(board)
