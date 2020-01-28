@@ -28,5 +28,4 @@ def turn(board)
   user_input = gets.chomp.to_i
   index = input_to_index(user_input)
 
-  end
 end
