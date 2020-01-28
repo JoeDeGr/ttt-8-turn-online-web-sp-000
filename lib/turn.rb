@@ -20,7 +20,7 @@ def valid_move?(board, index)
  end
 
  def move(board, index, char = "X")
-   board[index] = char.strip
+   board[index] = char
  end
 
 def turn(board)
