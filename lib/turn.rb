@@ -30,6 +30,6 @@ def turn(board)
     index = input_to_index(user_input)
     break (valid_move?(board, index))
   end
-  move(board)
+  move(board, index)  
   display_board(board)
 end
